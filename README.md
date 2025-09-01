@@ -36,7 +36,7 @@ The main objectives of this project are:
 
 - The dataset is loaded from Google Drive:  
   ```
-  /content/drive/MyDrive/metaverse_transactions_dataset_metaverse_transactions_dataset.csv
+  /content/drive/MyDrive/metaverse_transactions_dataset.csv
   ```
 - Target variable: **`anomaly`**  
 - Classes:  
@@ -89,9 +89,9 @@ Make sure your dataset path is updated inside the script if you’re running loc
 
 | Classifier      | Accuracy (%) |
 |-----------------|--------------|
-| KNN             | ~XX% |
-| Decision Tree   | ~XX% |
-| Naive Bayes     | ~XX% |
+| KNN             | ~99% |
+| Decision Tree   | ~100% |
+| Naive Bayes     | ~86% |
 
 - **Stratification Impact**: Stratified train-test split improves Naive Bayes performance.  
 - **Confusion Matrices**: Generated for all classifiers to visualize misclassifications.  
@@ -103,16 +103,6 @@ Make sure your dataset path is updated inside the script if you’re running loc
 - Stratification in dataset splitting prevents biased results in imbalanced datasets.  
 - Decision Trees and KNN handle categorical features differently than Naive Bayes.  
 - Correlation analysis helps in reducing multicollinearity for better model performance.  
-
----
-
-## 📸 Sample Visualizations  
-
-### Class Distribution  
-![Pie Chart of Anomalies](assets/class_distribution.png)  
-
-### Confusion Matrix Example  
-![Confusion Matrix](assets/confusion_matrix.png)  
 
 ---
 
